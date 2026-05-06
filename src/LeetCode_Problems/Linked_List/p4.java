@@ -11,7 +11,7 @@ package LeetCode_Problems.Linked_List;
              Walk Both Lists → Switch Heads on Null → Meet at Intersection or Null.
 */
 
-import LeetCode_Problems.Linked_List.Circular_Doubly_Linked_List.ListNode;
+import LeetCode_Problems.Linked_List.Linked_List_Implementation.ListNode;
 
 
 public class p4 {

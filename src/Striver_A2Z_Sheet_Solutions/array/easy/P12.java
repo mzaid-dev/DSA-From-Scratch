@@ -1,4 +1,4 @@
-package array.easy;
+package Striver_A2Z_Sheet_Solutions.array.easy;
 
 // Longest Subarray with given Sum K(Positives)
 

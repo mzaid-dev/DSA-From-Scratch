@@ -1,4 +1,4 @@
-package array.easy;
+package Striver_A2Z_Sheet_Solutions.array.easy;
 
 public class P10 {
 

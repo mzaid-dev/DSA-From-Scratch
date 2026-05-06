@@ -3,14 +3,14 @@ package LeetCode_Problems.Linked_List;
 
 //https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
-import LeetCode_Problems.Linked_List.Circular_Doubly_Linked_List.ListNode;
+import LeetCode_Problems.Linked_List.Linked_List_Implementation.ListNode;
 
 // use slow and fast
 public class p2 {
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
 
-        ListNode dummmy = new ListNode<>(null);
+        ListNode dummmy = null;
         dummmy.next = head;
 
         ListNode slow = dummmy;
@@ -31,11 +31,11 @@ public class p2 {
     }
 
     public static void main(String[] args) {
-        ListNode<Integer> first = new ListNode<>(1);
-        ListNode<Integer> second = new ListNode<>(2);
-        ListNode<Integer> third = new ListNode<>(3);
-        ListNode<Integer> fourth = new ListNode<>(4);
-        ListNode<Integer> five = new ListNode<>(5);
+        ListNode first = new ListNode(1);
+        ListNode second = new ListNode(2);
+        ListNode third = new ListNode(3);
+        ListNode fourth = new ListNode(4);
+        ListNode five = new ListNode(5);
 
 
         first.next = second;

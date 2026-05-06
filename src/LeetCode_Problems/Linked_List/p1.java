@@ -5,7 +5,7 @@ package LeetCode_Problems.Linked_List;
 // Algorithm used
 // Floyd’s Cycle-Finding Algorithm (The Tortoise and the Hare)
 
-import LeetCode_Problems.Linked_List.Circular_Doubly_Linked_List.ListNode;
+import LeetCode_Problems.Linked_List.Linked_List_Implementation.ListNode;
 
 public class p1 {
 
@@ -29,10 +29,10 @@ public class p1 {
 
     }
     public static void main(String[] args) {
-        ListNode<Integer> first = new ListNode<>(3);
-        ListNode<Integer> second = new ListNode<>(2);
-        ListNode<Integer> third = new ListNode<>(0);
-        ListNode<Integer> fourth = new ListNode<>(-4);
+        ListNode first = new ListNode(3);
+        ListNode second = new ListNode(2);
+        ListNode third = new ListNode(0);
+        ListNode fourth = new ListNode(-4);
 
 
         first.next = second;
@@ -41,7 +41,7 @@ public class p1 {
         fourth.next = second;
 
 
-        ListNode<Integer> head = first;
+        ListNode head = first;
 
         System.out.println(hasCycle(head));
 

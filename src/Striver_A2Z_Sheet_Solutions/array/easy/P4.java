@@ -1,4 +1,4 @@
-package array.easy;
+package Striver_A2Z_Sheet_Solutions.array.easy;
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 public class P4 {
      public static int removeDuplicates(int[] nums) {

@@ -1,6 +1,4 @@
-package LeetCode_Problems;
-
-import java.util.Arrays;
+package LeetCode_Problems.Random_Problems;
 
 // https://leetcode.com/problems/longest-common-prefix/description/
 
@@ -62,7 +60,5 @@ public class p1 {
     for (String[] test : testCases) {
         System.out.println(longestCommonPrefix(test));
     }
-
-
     }
 }

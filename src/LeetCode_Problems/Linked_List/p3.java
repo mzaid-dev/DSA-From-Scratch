@@ -1,6 +1,6 @@
 package LeetCode_Problems.Linked_List;
 
-import LeetCode_Problems.Linked_List.Circular_Doubly_Linked_List.ListNode;
+import LeetCode_Problems.Linked_List.Linked_List_Implementation.ListNode;
 
 //https://leetcode.com/problems/palindrome-linked-list/
 
@@ -98,11 +98,11 @@ public class p3 {
     }
 
     public static void main(String[] args) {
-        ListNode<Integer> first = new ListNode<>(1);
-        ListNode<Integer> second = new ListNode<>(1);
-        ListNode<Integer> third = new ListNode<>(2);
-        ListNode<Integer> fourth = new ListNode<>(1);
-        ListNode<Integer> five = new ListNode<>(1);
+        ListNode first = new ListNode(1);
+        ListNode second = new ListNode(1);
+        ListNode third = new ListNode(2);
+        ListNode fourth = new ListNode(1);
+        ListNode five = new ListNode(1);
 
 
         first.next = second;

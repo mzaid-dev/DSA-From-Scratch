@@ -1,4 +1,4 @@
-package array.easy;
+package Striver_A2Z_Sheet_Solutions.array.easy;
 
 // Problem Statement: Given an array, we have to find the largest element in the array.
 
