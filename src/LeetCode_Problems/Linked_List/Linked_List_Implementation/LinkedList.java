@@ -1,7 +1,7 @@
 //  Not Completed
 package LeetCode_Problems.Linked_List.Linked_List_Implementation;
 
-public class CircularDoublyLinkedList<T> {
+public class LinkedList<T> {
 
     private static class Node<T> {
         T data;
@@ -25,7 +25,7 @@ public class CircularDoublyLinkedList<T> {
     private Node<T> tail;
     private int size;
 
-    public CircularDoublyLinkedList(){
+    public LinkedList(){
         head = null;
         tail = null;
         size = 0;

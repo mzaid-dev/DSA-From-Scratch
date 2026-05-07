@@ -7,24 +7,24 @@ import LeetCode_Problems.Linked_List.Linked_List_Implementation.ListNode;
 public class p5 {
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode sortedLL = new ListNode();
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
 
         while (list1 != null && list2 != null){
             if (list1.val > list2.val){
-               sortedLL.next = list2;
+               tail.next = list2;
                list2 = list2.next;
             }else {
-                sortedLL.next = list1;
+                tail.next = list1;
                 list1 = list1.next;
             }
-
-            sortedLL = sortedLL.next;
+            tail = tail.next;
         }
-        return  sortedLL;
+        tail.next = (list1 != null) ? list1 : list2;
+        return  dummy.next;
     }
 
     public static void main(String[] args) {
-
         ListNode A1 = new ListNode(1);
         ListNode A2 = new ListNode(5);
 
@@ -41,12 +41,10 @@ public class p5 {
         B2.next = B3;
 
         ListNode sortedLL = mergeTwoLists(A1,B1);
-
         ListNode temp = sortedLL;
         while (temp != null){
             System.out.println(temp);
             temp = temp.next;
         }
-
     }
 }

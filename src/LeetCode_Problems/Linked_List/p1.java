@@ -34,12 +34,10 @@ public class p1 {
         ListNode third = new ListNode(0);
         ListNode fourth = new ListNode(-4);
 
-
         first.next = second;
         second.next = third;
         third.next = fourth;
         fourth.next = second;
-
 
         ListNode head = first;
 

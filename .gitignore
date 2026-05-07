@@ -32,3 +32,5 @@ bin/
 
 .idea/
 *.iml
+
+src/LeetCode_Problems/Linked_List/p6.java
