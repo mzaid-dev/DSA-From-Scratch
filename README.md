@@ -7,4 +7,4 @@ Currently heading towards both."
 - 🐢 Slow but working solutions
 - 🧠 Algorithm names nobody asked for
 - 💀 Dead brain cells count: ∞
-- ☕ Fueled by caffeine and rejection emails# DSA-From-Scratch
+- ☕ Fueled by caffeine and rejection emails# DSA-From-Scratch.
